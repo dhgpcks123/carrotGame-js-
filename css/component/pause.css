@@ -1,0 +1,24 @@
+/*pause 버튼*/
+.component__pause {
+   width: 50px;
+   height: 50px;
+   background-color: yellowgreen;
+   border: 3px solid black;
+   border-radius: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fas {
+   font-size: 30px;
+}
+.fa-play {
+   display: none;
+}
+.fa-pause {
+   display: block;
+}
+
+.component__pause:hover {
+   transform: scale(1.1);
+}

@@ -1,0 +1,11 @@
+.component__count {
+   background-color: orangered;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   font-size: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 3px solid black;
+}

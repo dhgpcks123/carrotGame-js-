@@ -1,0 +1,28 @@
+@import '/css/reset.css';
+@import '/css/component/count.css';
+@import '/css/component/pause.css';
+@import '/css/component/timer.css';
+body {
+   display: flex;
+   justify-content: center;
+   margin-top: 60px;
+}
+.background {
+   width: 950px;
+   height: 550px;
+   background: url(/img/background.png) center/cover;
+   border-radius: 5%;
+   border: 3px solid black;
+}
+
+.component {
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.component__area {
+   border: 1px solid blue;
+   width: 950px;
+   height: 330px;
+}
