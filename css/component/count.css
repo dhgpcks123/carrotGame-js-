@@ -1,8 +1,8 @@
 .component__count {
    background-color: orangered;
-   width: 60px;
+   width: 80px;
    height: 60px;
-   border-radius: 50%;
+   border-radius: 30%;
    font-size: 35px;
    display: flex;
    justify-content: center;

@@ -8,12 +8,10 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   cursor: pointer;
 }
 .fas {
    font-size: 30px;
-}
-.fa-play {
-   display: none;
 }
 .fa-pause {
    display: block;

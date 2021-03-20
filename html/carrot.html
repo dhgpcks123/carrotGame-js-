@@ -14,24 +14,32 @@
       <div class="component">
          <div class="component__pause">
             <div class="component__pause-btn">
-               <i class="fas fa-play"></i>
-               <i class="fas fa-pause"></i>
+               <i class="playBtn fas fa-play"></i>
+               <!-- <i class="fas fa-pause"></i> -->
             </div>
          </div>
       </div>
       <div class="component">
          <div class="component__timer">
-            <span class="component__timer-time"><i class="far fa-clock"></i> 0:10 </span>
+            <i class="far fa-clock"></i>
+            <span class="component__timer-time stop-dragging"></span>
          </div>
       </div>
       <div class="component">
          <div class="component__count">
-            <div class="component__count-no">10</div>
+            <div class="component__count-no stop-dragging">점수</div>
          </div>
       </div>
       <div class="component">
          <div class="component__area"></div>
       </div>
    </div>
+
+   <section class="pop-up pop-up--hide">
+      <button class="pop-up__refresh">
+         <i class="fas fa-redo"></i>
+      </button>
+      <span class="pop-up__message">Hello</span>
+   </section>
 </body>
 </html>

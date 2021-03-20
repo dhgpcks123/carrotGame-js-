@@ -2,10 +2,11 @@
 @import '/css/component/count.css';
 @import '/css/component/pause.css';
 @import '/css/component/timer.css';
+@import '/css/items/item.css';
+
 body {
-   display: flex;
-   justify-content: center;
    margin-top: 60px;
+   text-align: center;
 }
 .background {
    width: 950px;
@@ -13,6 +14,7 @@ body {
    background: url(/img/background.png) center/cover;
    border-radius: 5%;
    border: 3px solid black;
+   margin: auto;
 }
 
 .component {
@@ -22,7 +24,41 @@ body {
 }
 
 .component__area {
-   border: 1px solid blue;
    width: 950px;
    height: 330px;
+}
+
+.stop-dragging {
+   -ms-user-select: none;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+.pop-up {
+   width: 400px;
+   height: 140px;
+   padding: 20px;
+   background-color: #00000080;
+   color: white;
+   text-align: center;
+   margin: auto;
+   transform: translateY(-150%);
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   font-size: 60px;
+}
+.pop-up__refresh {
+   width: 70px;
+   height: 70px;
+   border: 3px solid black;
+   border-radius: 50%;
+   background-color: orange;
+   cursor: pointer;
+}
+.pop-up--hide {
+   display: none;
 }
